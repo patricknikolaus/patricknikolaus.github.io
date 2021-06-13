@@ -3753,10 +3753,10 @@ input, select, textarea {
 /* CTA */
 
 	#cta .inner {
-		display: -moz-flex;
+		/* display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: flex; */
 		max-width: 45em;
 	}
 
@@ -3765,7 +3765,7 @@ input, select, textarea {
 			-webkit-order: 1;
 			-ms-order: 1;
 			order: 1;
-			padding-right: 3em;
+			padding-right: 10em;
 			width: 70%;
 		}
 
@@ -3886,8 +3886,9 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 4em 0 ;
-		background-color: #1d242a;
+		background-color: #ffffff;
 		text-align: center;
+		opacity: 1;
 	}
 
 		#footer .icons {
@@ -3976,7 +3977,7 @@ input, select, textarea {
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		background-color: rgba(0, 0, 0, 0.9);
 	}
 
 	body.is-mobile.landing #page-wrapper {
