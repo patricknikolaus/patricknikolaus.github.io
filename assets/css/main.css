@@ -3507,7 +3507,7 @@ input, select, textarea {
 					#header nav > ul > li > a {
 						border: 0;
 						color: #fff;
-						display: block;
+						display: inline-block;
 						font-size: 0.8em;
 						letter-spacing: 0.225em;
 						padding: 0 1.5em;
